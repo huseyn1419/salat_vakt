@@ -9,7 +9,8 @@ color_reset="\033[0;39m"
 # learn todays date in type that we want
 date=$(date +%d-%m-%Y)
 
-file="*$city*.csv"
+cd /opt/salat-vakt/city/
+file="*$city*"
 
 
 if [ ! -f $file ]; then
