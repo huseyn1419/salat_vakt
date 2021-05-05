@@ -21,6 +21,7 @@ fi
 
 
 # show date manually
+head -n 1 "$city"
 echo "$(date '+%H:%M:%S %A %Y%m%d ')"
 
 i=1; while [ $(($i)) -le 18 ]; do
